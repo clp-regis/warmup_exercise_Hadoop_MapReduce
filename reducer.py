@@ -21,4 +21,4 @@ for line in sys.stdin:
 #Reducer
 for state_cause in cause_total.keys():
     ave_total = round(sum(cause_total[state_cause])*1.0 / len(cause_total[state_cause]))
-    print(f'{state_cause}\t{ave_total}')
+    print '%s\t%s' % (state_cause, ave_total)
