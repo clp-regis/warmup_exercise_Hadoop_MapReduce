@@ -12,5 +12,5 @@ for line in sys.stdin:
         state = line[2]
         deaths = line[3]
 
-        #print '%s\t%s' % (sex, age)
-        print(f'{state}\t{cause}\t{deaths}')
+        print '%s\t%s\t%s' % (state, cause, deaths)
+       
